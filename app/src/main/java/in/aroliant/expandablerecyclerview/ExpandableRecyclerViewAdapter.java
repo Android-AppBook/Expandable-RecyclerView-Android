@@ -34,7 +34,6 @@ public class ExpandableRecyclerViewAdapter extends RecyclerView.Adapter<Expandab
         this.itemNameList = itemNameList;
         this.context = context;
 
-        Log.d("namelist", nameList.toString());
 
         for (int i = 0; i < nameList.size(); i++) {
             counter.add(0);

@@ -33,26 +33,26 @@ public class MainActivity extends AppCompatActivity {
         parentList.add("Beverages & Health");
         parentList.add("Home & Kitchen");
 
-        ArrayList<String> childNameList = new ArrayList<>();
-        childNameList.add("Apple");
-        childNameList.add("Mango");
-        childNameList.add("Banana");
+        ArrayList<String> childList = new ArrayList<>();
+        childList.add("Apple");
+        childList.add("Mango");
+        childList.add("Banana");
 
-        childListHolder.add(childNameList);
+        childListHolder.add(childList);
 
-        childNameList = new ArrayList<>();
-        childNameList.add("Red bull");
-        childNameList.add("Maa");
-        childNameList.add("Horlicks");
+        childList = new ArrayList<>();
+        childList.add("Red bull");
+        childList.add("Maa");
+        childList.add("Horlicks");
 
-        childListHolder.add(childNameList);
+        childListHolder.add(childList);
 
-        childNameList = new ArrayList<>();
-        childNameList.add("Knife");
-        childNameList.add("Vessels");
-        childNameList.add("Spoons");
+        childList = new ArrayList<>();
+        childList.add("Knife");
+        childList.add("Vessels");
+        childList.add("Spoons");
 
-        childListHolder.add(childNameList);
+        childListHolder.add(childList);
 
         ExpandableRecyclerViewAdapter expandableCategoryRecyclerViewAdapter =
                 new ExpandableRecyclerViewAdapter(getApplicationContext(), parentList,
